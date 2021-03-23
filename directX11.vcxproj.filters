@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Keyboard">
+      <UniqueIdentifier>{b7f8e740-3546-436a-98f0-62a94b1216ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Keyboard">
+      <UniqueIdentifier>{5f6d53ac-8ac1-4a47-a8e6-0426f6ef5a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mouse">
+      <UniqueIdentifier>{5fa1a513-6f3a-4ba3-884b-8c195f11bc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mouse">
+      <UniqueIdentifier>{a671a984-8c23-4e8f-858f-32b38243fe22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{21ee3880-065b-4a1d-90b4-f6f0afa3022f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{6b8f8d3e-e7a0-495b-a55e-65a05158abc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyScene">
+      <UniqueIdentifier>{d56c99b4-4bf5-4439-8470-f15f4ad59ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frank Luna">
+      <UniqueIdentifier>{873adc2d-cafe-4c10-b214-df370c9c1247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frank Luna">
+      <UniqueIdentifier>{5cd25450-7c9e-4d0c-aba0-06a85b772dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrankLuna">
+      <UniqueIdentifier>{cc6aa867-fec3-4c0b-8325-b1fb0006366e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frank Luna\HW6">
+      <UniqueIdentifier>{33e4dc5d-069c-4220-9718-7b0324af246b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frank Luna\HW6">
+      <UniqueIdentifier>{20abb27f-3d90-457f-8dbd-8b390161d976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frank Luna\Chapter6">
+      <UniqueIdentifier>{ad1f17e2-03f0-4b45-8c09-78bd0956385d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frank Luna\Chapter7">
+      <UniqueIdentifier>{4cc3ff58-53d8-4642-9144-12cea43481f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frank Luna\Chapter6">
+      <UniqueIdentifier>{e61c4207-82f6-4c13-add3-042f68fbe591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frank Luna\Chapter7">
+      <UniqueIdentifier>{7ce133d9-f9ab-4d67-8cd7-30487a4440b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrankLuna\Chapter7">
+      <UniqueIdentifier>{66e693e1-4f95-424c-8bd4-3e7ccab935e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frank Luna\Chapter8">
+      <UniqueIdentifier>{a094c7db-441b-4c57-a20c-d5cb47298056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrankLuna\Chapter8">
+      <UniqueIdentifier>{43a352c3-e438-450c-be29-295573a02cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frank Luna\Chapter8">
+      <UniqueIdentifier>{25ea3afe-6885-47c2-8c07-5efaab1ff7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\ImGui">
+      <UniqueIdentifier>{7dad7674-55a1-48c0-92e1-b7115178fa05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\ImGui">
+      <UniqueIdentifier>{dc8e94cf-f4bb-4ec7-9d69-0cb219384634}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\KeyboardClass.cpp">
+      <Filter>Source Files\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\KeyboardEvent.cpp">
+      <Filter>Source Files\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse\MouseClass.cpp">
+      <Filter>Source Files\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse\MouseEvent.cpp">
+      <Filter>Source Files\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\AdapterReader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shaders.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Triangle.cpp">
+      <Filter>Header Files\MyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\CubeExtended_2.cpp">
+      <Filter>Source Files\Frank Luna\HW6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\Pyramid.cpp">
+      <Filter>Source Files\Frank Luna\HW6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\WavesDemo.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\AbstractDemo.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\Box.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\GeometryGenerator.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\Hills.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\Shapes.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\Skull.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\Waves.cpp">
+      <Filter>Source Files\Frank Luna\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\LightingDemo.cpp">
+      <Filter>Source Files\Frank Luna\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\LitSkullDemo.cpp">
+      <Filter>Source Files\Frank Luna\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\CrateDemo.cpp">
+      <Filter>Source Files\Frank Luna\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\TexturedHillsAndWavesDemo.cpp">
+      <Filter>Source Files\Frank Luna\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGui\imgui.cpp">
+      <Filter>Source Files\Graphics\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\Graphics\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Graphics\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGui\imgui_tables.cpp">
+      <Filter>Source Files\Graphics\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\Graphics\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files\Graphics\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="FrankLuna\DefaultDemo.cpp">
+      <Filter>Source Files\Frank Luna</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Model.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\KeyboardClass.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\KeyboardEvent.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse\MouseEvent.h">
+      <Filter>Header Files\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse\MouseClass.h">
+      <Filter>Header Files\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\AdapterReader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shaders.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Vertex.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\IndexBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ConstantBufferTypes.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ConstantBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Triangle.h">
+      <Filter>Header Files\MyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\CubeExtended_2.h">
+      <Filter>Header Files\Frank Luna\HW6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Pyramid.h">
+      <Filter>Header Files\Frank Luna\HW6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\WavesDemo.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\AbstractDemo.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Box.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\GeometryGenerator.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Hills.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Shapes.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Skull.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Waves.h">
+      <Filter>Header Files\Frank Luna\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\VertexFL.h">
+      <Filter>Header Files\Frank Luna</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\LightingDemo.h">
+      <Filter>Header Files\Frank Luna\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\Light.h">
+      <Filter>Header Files\Frank Luna</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\MathHelper.h">
+      <Filter>Header Files\Frank Luna</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\LitSkullDemo.h">
+      <Filter>Header Files\Frank Luna\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\CrateDemo.h">
+      <Filter>Header Files\Frank Luna\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\TexturedHillsAndWavesDemo.h">
+      <Filter>Header Files\Frank Luna\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imconfig.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imgui.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imgui_impl_dx11.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imgui_internal.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imstb_rectpack.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imstb_textedit.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imstb_truetype.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGui\imgui_impl_win32.h">
+      <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="FrankLuna\DefaultDemo.h">
+      <Filter>Header Files\Frank Luna</Filter>
+    </ClInclude>
+    <ClInclude Include="COMException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Model.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vertexshader.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="pixelshader.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="vertexshaderFL.hlsl">
+      <Filter>Resource Files\FrankLuna</Filter>
+    </FxCompile>
+    <FxCompile Include="pixelshaderFL.hlsl">
+      <Filter>Resource Files\FrankLuna</Filter>
+    </FxCompile>
+    <FxCompile Include="FLvertexShaderLight.hlsl">
+      <Filter>Resource Files\FrankLuna\Chapter7</Filter>
+    </FxCompile>
+    <FxCompile Include="FLpixelShaderLight.hlsl">
+      <Filter>Resource Files\FrankLuna\Chapter7</Filter>
+    </FxCompile>
+    <FxCompile Include="litSkullVS.hlsl">
+      <Filter>Resource Files\FrankLuna\Chapter7</Filter>
+    </FxCompile>
+    <FxCompile Include="litSkullPS.hlsl">
+      <Filter>Resource Files\FrankLuna\Chapter7</Filter>
+    </FxCompile>
+    <FxCompile Include="cubeDemoVS.hlsl">
+      <Filter>Resource Files\FrankLuna\Chapter8</Filter>
+    </FxCompile>
+    <FxCompile Include="cubeDemoPS.hlsl">
+      <Filter>Resource Files\FrankLuna\Chapter8</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
